@@ -16,4 +16,3 @@ step-2. run 'python imgstegno.py'
 
 step-3. give respective inputes and get outputs
 
-maintained  encoded image size , image should be PNG form  
