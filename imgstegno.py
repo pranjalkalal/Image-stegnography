@@ -46,7 +46,7 @@ def encode():
     img = Image.open(img_name, 'r')
     w, h = img.size
     data = input("\nenter message:")
-    if data == 0:
+    if len(data) == 0:
         raise ValueError("Empty data")
     enc_img = input("\nenter encoded image name:")
     enc_data = hidedata(image, data)
